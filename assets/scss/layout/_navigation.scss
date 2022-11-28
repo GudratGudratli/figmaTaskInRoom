@@ -1,0 +1,48 @@
+.navigation{
+    width: 100%;
+    height: 300px;
+    background-color: #265e7e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    .list{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        h5{
+            color: #fff;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        .nav-list{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            a{
+                color: #fff;
+            }
+        }
+        .contacts{
+            display: flex;
+            flex-direction: column;
+            text-align: start;
+            gap: 10px;
+            .icon-info{
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                i{
+                    color: #8EC2F2;
+                    font-size: 32px;
+                }
+                h6{
+                    color: #fff;
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
